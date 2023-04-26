@@ -1,0 +1,83 @@
+/* .lobby-table__avatar {
+    width: 200px;
+    height: 200px;
+} */
+
+.lobby-tables__item {
+    background-color: cadetblue;
+    width: max-content;
+   
+}
+
+.lobby-table__top-bar {
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.lobby-table__footer {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.roulette-history--fOmuw {
+    display: flex;
+}
+
+.roulette-history-item__value-text--siwxW {
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.lobby-table__container,
+.lobby-table__body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tables {
+    display: grid;
+    grid-template-areas: 'table-one table-two table-three table-four'
+    'table-five table-six table-seven table-eight'
+    'table-nine table-ten table-eleven table-twelve'
+    'table-thirteen table-fourteen table-fifteen table-sixteen' 
+    'table-seventeen table-eighteen table-nineteen table-twenty';
+    gap: 50px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.roulette-history-item__value-text--siwxW {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    padding: 10px;
+}
