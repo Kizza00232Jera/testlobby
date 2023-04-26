@@ -81,3 +81,10 @@ h1 {
     border-radius: 3px;
     padding: 10px;
 }
+
+.lobby-table__name-container,
+.lobby-table__dealer-name {
+    font-size: 20px;
+    color: blue;
+    font-weight: bolder;
+}
